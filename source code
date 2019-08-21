@@ -1,0 +1,10 @@
+pipeline{ 
+2     agent any 
+3     stages{ 
+4         stage("Build"){ 
+5             steps{ 
+6                 echo "Hello World" 
+7             } 
+8         } 
+9     } 
+10 } 
